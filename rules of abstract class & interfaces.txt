@@ -1,0 +1,32 @@
+1) If even one method in a class, is abstract, the class must 
+   be declared as abstract.
+
+2) If the entity represented is incomplete, then even if 
+   there is no method abstract, still class can be declared 
+   as abstract.
+
+3) Abstract classes cannot have objects instantiated, but 
+   can store object references of child classes.
+
+4) If child class doesn't implement parent's abstract method, 
+   then it becomes abstract as well.
+
+5) A class cannot be abstract as well as final, both at a time.
+
+=============================================================
+
+1) Interface is a 100% abstract class. It cannot have any 
+   implementation.
+
+2) Methods declared in interface, are abstract & public by 
+   default. Its access modifier cannot be changed.
+
+3) Variables declared in interface are public, static & 
+   final. These modifiers cannot be changed.
+
+4) A class can implement one or more interfaces, but cannot
+   extend more than one class.
+
+5) An interface can extend one or more interfaces.
+
+6) An interface cannot implement any other interface.
